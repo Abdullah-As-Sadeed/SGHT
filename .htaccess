@@ -1,0 +1,9 @@
+# By Abdullah As-Sadeed
+
+RewriteEngine On
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
+RewriteRule \.(webp|png|jpe?g) /Error_404.webp [NC,L]

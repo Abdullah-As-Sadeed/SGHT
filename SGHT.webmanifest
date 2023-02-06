@@ -1,0 +1,82 @@
+{
+  "background_color": "#FFFFFF",
+  "categories": ["education"],
+  "description": "Presenting various historic technologies",
+  "dir": "ltr",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/SGHT_48.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "any"
+    },
+    {
+      "src": "/SGHT_72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any"
+    },
+    {
+      "src": "/SGHT_96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "any"
+    },
+    {
+      "src": "/SGHT_128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "any"
+    },
+    {
+      "src": "/SGHT_192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/SGHT_384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "any"
+    },
+    {
+      "src": "/SGHT_512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "id": "/",
+  "lang": "en",
+  "name": "Sadeed Gallery of Historic Technologies",
+  "orientation": "portrait",
+  "scope": "/",
+  "screenshots": [
+    {
+      "src": "/ScreenShot.jpeg",
+      "type": "image/jpeg",
+      "sizes": "540x720",
+      "label": "Presenting various historic technologies"
+    }
+  ],
+  "short_name": "SGHT",
+  "shortcuts": [
+    {
+      "name": "SGHT",
+      "short_name": "SGHT",
+      "description": "Presenting various historic technologies",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/SGHT_192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "start_url": "/",
+  "theme_color": "#424242"
+}
